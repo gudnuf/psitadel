@@ -10,9 +10,7 @@ const Home = () => {
       <Container className="home d-flex flex-column justify-content-around">
         <HomeHeader theme={theme} />
       </Container>
-      <Row>
-        <TopNav theme={theme} />
-      </Row>
+      <TopNav theme={theme} />
     </>
   );
 };

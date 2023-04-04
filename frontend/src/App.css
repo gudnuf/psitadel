@@ -10,3 +10,16 @@ div.home.container {
   display: flex;
   justify-content: center;
 }
+
+.navbar-brand img {
+  max-width: 50px;
+  margin-right: 8px;
+}
+
+.navbar-brand {
+  font-size: 2.2rem;
+}
+
+.App {
+  height: 200vh;
+}

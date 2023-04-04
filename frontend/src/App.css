@@ -1,0 +1,12 @@
+div.home.container {
+  min-height: 90vh;
+}
+
+.home-header button {
+  font-size: 2.4rem;
+}
+
+.home-header {
+  display: flex;
+  justify-content: center;
+}

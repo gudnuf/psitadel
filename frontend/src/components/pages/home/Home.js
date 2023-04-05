@@ -2,6 +2,7 @@ import { Container, Row } from 'react-bootstrap';
 
 import HomeHeader from './HomeHeader';
 import TopNav from '../../TopNav';
+import Values from './Values';
 
 const Home = () => {
   const theme = 'light';
@@ -11,6 +12,9 @@ const Home = () => {
         <HomeHeader theme={theme} />
       </Container>
       <TopNav theme={theme} />
+      <Container>
+        <Values />
+      </Container>
     </>
   );
 };

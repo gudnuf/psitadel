@@ -23,3 +23,20 @@ div.home.container {
 .App {
   height: 200vh;
 }
+
+.section-title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.value-item {
+  background-color: grey;
+  position: relative;
+  aspect-ratio: 1 / 1;
+  border-radius: 5px;
+}
+
+.value-name {
+  text-align: center;
+  font-size: 1.2rem;
+}

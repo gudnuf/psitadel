@@ -8,11 +8,9 @@ const Home = () => {
   const theme = 'light';
   return (
     <>
+      <TopNav theme={theme} />
       <Container className="home d-flex flex-column justify-content-around">
         <HomeHeader theme={theme} />
-      </Container>
-      <TopNav theme={theme} />
-      <Container>
         <Values />
       </Container>
     </>

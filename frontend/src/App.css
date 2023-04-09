@@ -40,3 +40,12 @@ div.home.container {
   text-align: center;
   font-size: 1.2rem;
 }
+
+.section {
+  min-height: 60vh;
+}
+
+.segment {
+  background-color: rgb(211, 211, 211, 0.6);
+  border-radius: 5px;
+}

@@ -20,10 +20,6 @@ div.home.container {
   font-size: 2.2rem;
 }
 
-.App {
-  height: 200vh;
-}
-
 .section-title {
   text-align: center;
   font-size: 1.5rem;
@@ -48,4 +44,8 @@ div.home.container {
 .segment {
   background-color: rgb(211, 211, 211, 0.6);
   border-radius: 5px;
+}
+
+footer {
+  color: white;
 }

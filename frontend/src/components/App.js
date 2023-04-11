@@ -8,6 +8,7 @@ import Join from './pages/join/Join';
 import About from './pages/about/About';
 import Donate from './pages/donate/Donate';
 import TopNav from './TopNav';
+import Footer from './Footer';
 
 function App() {
   const location = useLocation();
@@ -15,15 +16,14 @@ function App() {
 
   return (
     <div className="App">
+      <TopNav />
       <Routes>
         <Route exact path="/" element={<Home />} />
-      </Routes>
-      {isNotHome && <TopNav />}
-      <Routes>
         <Route exact path="/join" element={<Join />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/donate" element={<Donate />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

@@ -7,22 +7,21 @@ import values from '../../../data/valuesData.js';
 const Values = () => {
   const renderValues = () =>
     values.map((value, index) => (
-      <Fragment key={index}>
-        <ValuesItem
-          value={value.value}
-          icon={value.icon}
-          description={value.description}
-        />
-      </Fragment>
+      <ValuesItem
+        key={index}
+        value={value.value}
+        icon={value.icon}
+        description={value.description}
+      />
     ));
 
   return (
-    <>
-      <Row className="justify-content-center">
-        <div className="section-title">Our Values</div>
+    <Row className="mt-5 values">
+      <Row className="">
+        <h2 className="values">Our Values</h2>
       </Row>
       <Row>{renderValues()}</Row>
-    </>
+    </Row>
   );
 };
 

@@ -4,8 +4,9 @@ import { useState } from 'react';
 
 const ValuesItem = ({ value, description, icon }) => (
   <Col
-    className="value-item m-2 d-flex flex-column justify-content-around align-items-center segment"
-    md={3}
+    className="my-5 d-flex flex-column justify-content-around align-items-center"
+    md={4}
+    lg={3}
     sm={6}
     xs={12}
   >

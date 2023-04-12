@@ -20,14 +20,9 @@ const Home = () => {
         className="header-container"
         windowResize={handleWindowResize}
       />
-      <Container
-        className="home d-flex flex-column justify-content-around"
-        style={{ marginTop: heroHeight }}
-      >
-        <Values className="section values-section" />
-        <Row className="align-items-center justify-content-center section values-section">
-          <JoinAndAbout className="" />
-        </Row>
+      <Container className="justify-content-around">
+        <Values />
+        <JoinAndAbout className="" />
       </Container>
     </>
   );

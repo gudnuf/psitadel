@@ -9,6 +9,36 @@ const values = [
     icon: 'fa-solid fa-flag',
     description: 'Sovereignty is awesome',
   },
+  {
+    value: 'Soveriegnty',
+    icon: 'fa-solid fa-flag',
+    description: 'Sovereignty is awesome',
+  },
+  {
+    value: 'Soveriegnty',
+    icon: 'fa-solid fa-flag',
+    description: 'Sovereignty is awesome',
+  },
+  {
+    value: 'Soveriegnty',
+    icon: 'fa-solid fa-flag',
+    description: 'Sovereignty is awesome',
+  },
+  {
+    value: 'Soveriegnty',
+    icon: 'fa-solid fa-flag',
+    description: 'Sovereignty is awesome',
+  },
+  {
+    value: 'Soveriegnty',
+    icon: 'fa-solid fa-flag',
+    description: 'Sovereignty is awesome',
+  },
+  {
+    value: 'Soveriegnty',
+    icon: 'fa-solid fa-flag',
+    description: 'Sovereignty is awesome',
+  },
 ];
 
 export default values;

@@ -3,8 +3,6 @@ import { useState, useEffect, useRef } from 'react';
 import { PropTypes } from 'prop-types';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
-import logoLight from '../../../images/logos/Logo-black2-transparant-rgb.png';
-import logoDark from '../../../images/logos/Avatar-White-rgb.png';
 import heroImage from '../../../images/hero.png';
 
 const HomeHeader = ({ theme, windowResize }) => {
@@ -35,7 +33,11 @@ const HomeHeader = ({ theme, windowResize }) => {
       />
       <Row
         className="justify-content-center"
-        style={{ position: 'absolute', zIndex: 10, height: heroHeight }}
+        style={{
+          position: 'absolute',
+          zIndex: 10,
+          height: heroHeight,
+        }}
       >
         <Col
           md={9}

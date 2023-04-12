@@ -7,7 +7,7 @@ import logo from '../images/logos/Avatar-Black.svg';
 
 const TopNav = ({ theme }) => (
   <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
-    <Container className="justify-content-center">
+    <Container>
       <Navbar.Brand as={Link} to="/">
         <img src={logo} alt="logo" />
         Psilocybin Psitadel

@@ -7,14 +7,14 @@ const Footer = () => (
     <Container>
       <Row className="justify-content-around text-center">
         <Col md={4}>
-          <h5>About Us</h5>
+          <h5 className="footer">About Us</h5>
           <p style={{ textAlign: 'justify' }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non
             purus non enim tempus luctus sit amet id ipsum.
           </p>
         </Col>
         <Col md={4} className="">
-          <h5>Navigation</h5>
+          <h5 className="footer">Navigation</h5>
           <Row>
             <Col md={6}>
               <Nav className="flex-column">
@@ -47,7 +47,7 @@ const Footer = () => (
           </Row>
         </Col>
         <Col md={4}>
-          <h5>Contact</h5>
+          <h5 className="footer">Contact</h5>
           <ul style={{ listStyle: 'none' }}>
             <a
               href="https://t.me/psilocybincitadel"

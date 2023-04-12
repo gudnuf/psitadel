@@ -1,49 +1,130 @@
-/* div.home.container {
-  min-height: 90vh;
-} */
-
-h1.hero {
-  color: #b0c9d6;
-  font-weight: bold;
-  background-color: rgb(96, 106, 39, 0.6);
-  padding: 20px;
-  border-radius: 5px;
+@font-face {
+  font-family: "Strawberry Dreams";
+  src: url(./fonts/strawberry_dreams.otf);
+  font-weight: normal;
 }
+@font-face {
+  font-family: "Strawberry Dreams Block";
+  src: url(./fonts/strawberry_dreams_block.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Strawberry Dreams Alt";
+  src: url(./fonts/strawberry_dreams_alternates.otf);
+  font-weight: normal;
+}
+
+:root {
+  --brand-color: #b0c9d6;
+  --heading-font: "Strawberry Dreams Block";
+  --main-font: "Strawberry Dreams";
+}
+
+/* BackgroundImage */
+.background-container {
+  position: fixed;
+  height: 100vh;
+}
+
+.background-image {
+}
+
+/* ------------------------------------ */
+
+/* TopNav */
 .navbar-brand img {
   max-width: 50px;
   margin-right: 8px;
 }
 
 .navbar-brand {
-  font-size: 2.2rem;
+  font-family: var(--heading-font);
+  font-size: 1.8rem;
+  color: var(--brand-color);
 }
 
-.section-title {
-  text-align: center;
-  font-size: 1.5rem;
+a.nav-link {
+  color: white;
+  font-family: var(--main-font);
 }
 
-.value-item {
-  background-color: grey;
-  position: relative;
-  aspect-ratio: 1 / 1;
+a.nav-link:hover {
+  color: var(--brand-color);
+  border-bottom: solid var(--brand-color) 2px;
+}
+
+/* ------------------------------------ */
+
+/* HomeHeader */
+h1.hero {
+  color: var(--brand-color);
+  font-weight: bold;
+  font-family: var(--heading-font);
+  background-color: rgb(96, 106, 39, 0.6);
+  padding: 20px;
   border-radius: 5px;
+}
+
+/* ------------------------------------ */
+
+/* Values */
+h2.values {
+  text-align: center;
+  font-family: var(--heading-font);
+  font-size: 3.3rem;
 }
 
 .value-name {
+  font-size: 1.5rem;
+  font-family: var(--heading-font);
+}
+
+.value-description {
+  font-family: var(--main-font);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* ------------------------------------ */
+
+/* JoinAndAbout */
+.join-and-about div {
+  font-family: var(--heading-font);
+  font-size: 2.5rem;
+  letter-spacing: 3px;
   text-align: center;
-  font-size: 1.2rem;
 }
 
-.section {
-  min-height: 60vh;
-}
+/* --------------------------------------- */
 
-.segment {
-  background-color: rgb(211, 211, 211, 0.6);
-  border-radius: 5px;
-}
-
+/* Footer */
 footer {
   color: white;
+}
+
+h5.footer {
+  font-family: var(--heading-font);
+}
+
+/* ------------------------------------ */
+
+/* Media Queries */
+@media (max-width: 575.98px) {
+  /* Empty media query block */
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Empty media query block */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Empty media query block */
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Empty media query block */
+}
+
+@media (min-width: 1200px) {
+  /* Empty media query block */
 }

@@ -1,34 +1,40 @@
-import { Row, Col, Button } from 'react-bootstrap';
+import { Row, Col, Button, Form } from 'react-bootstrap';
 
 const JoinAndAbout = () => (
-  <>
-    <Row className="align-items-center justify-content-center segment">
-      <Col>
-        <h2>
-          <strong>JOIN</strong> a community of like-minded individuals trading
-          value.
-        </h2>
-      </Col>
-      <Col>
-        <Row>This will be a cool psitadel image</Row>
-        <Row>
-          <Button>Join</Button>
-        </Row>
-      </Col>
+  <Row className="">
+    <Row className="join-and-about">
+      <div>
+        The Psitadel is an ever evolving community. We are striving to bring
+        technology, education, and free thinking together to create a soveriegn
+        and sustainable future.
+      </div>
     </Row>
-    <Row className="align-items-center justify-content-center segment">
+    <Row className="join-and-about">
       <Col>
-        <Row>Another awesome AI pic</Row>
         <Button>Learn More</Button>
       </Col>
       <Col>
-        <h2>
-          The Psitadel is an ever evolving community. Join to stay up to date
-          and get involved!
-        </h2>
+        <Button>Donate</Button>
+      </Col>
+      <Col>
+        <Button>Contribute</Button>
       </Col>
     </Row>
-  </>
+    <Row>
+      <Col>
+        <h2>Sign up for our newsletter</h2>
+        <p>Stay up to date on the latest happenings within The Psitadel.</p>
+        <Form>
+          <Form.Group controlId="formBasicEmail">
+            <Form.Control type="email" placeholder="satoshi@greenpeace.com" />
+            <Button variant="primary" type="submit">
+              Sign up
+            </Button>
+          </Form.Group>
+        </Form>
+      </Col>
+    </Row>
+  </Row>
 );
 
 export default JoinAndAbout;

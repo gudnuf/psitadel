@@ -15,7 +15,7 @@ function App() {
   const isNotHome = location.pathname !== '/';
 
   return (
-    <div className="App">
+    <div className="App" style={{ position: 'relative' }}>
       <TopNav />
       <Routes>
         <Route exact path="/" element={<Home />} />

@@ -1,16 +1,14 @@
-div.home.container {
+/* div.home.container {
   min-height: 90vh;
-}
+} */
 
-.home-header button {
-  font-size: 2.4rem;
+h1.hero {
+  color: #b0c9d6;
+  font-weight: bold;
+  background-color: rgb(96, 106, 39, 0.6);
+  padding: 20px;
+  border-radius: 5px;
 }
-
-.home-header {
-  display: flex;
-  justify-content: center;
-}
-
 .navbar-brand img {
   max-width: 50px;
   margin-right: 8px;

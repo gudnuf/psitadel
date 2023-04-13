@@ -1,43 +1,60 @@
+import bitcoin from '../images/values/bitcoin.png';
+import education from '../images/values/education.png';
+import sovereignty from '../images/values/sovereignty.png';
+import experimentation from '../images/values/experimentation.png';
+import foss from '../images/values/foss.png';
+import access from '../images/values/access.png';
+import sustainability from '../images/values/sustainability.png';
+import voluntarism from '../images/values/voluntarism.png';
+
 const values = [
   {
     value: 'Bitcoin Standard',
-    icon: 'fa-brands fa-bitcoin',
-    description: 'Bitcoin is our medium of exchange and store of value',
+    img: bitcoin,
+    description:
+      'Bitcoin is our medium of exchange and store of value.  Sed do eiusmod',
+  },
+  {
+    value: 'Education',
+    img: education,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.',
   },
   {
     value: 'Soveriegnty',
-    icon: 'fa-solid fa-flag',
-    description: 'Sovereignty is awesome',
+    img: sovereignty,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.',
   },
   {
-    value: 'Soveriegnty',
-    icon: 'fa-solid fa-flag',
-    description: 'Sovereignty is awesome',
+    value: 'Sustainability',
+    img: sustainability,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.',
   },
   {
-    value: 'Soveriegnty',
-    icon: 'fa-solid fa-flag',
-    description: 'Sovereignty is awesome',
+    value: 'Experimentation',
+    img: experimentation,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.',
   },
   {
-    value: 'Soveriegnty',
-    icon: 'fa-solid fa-flag',
-    description: 'Sovereignty is awesome',
+    value: 'Voluntarism',
+    img: voluntarism,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.',
   },
   {
-    value: 'Soveriegnty',
-    icon: 'fa-solid fa-flag',
-    description: 'Sovereignty is awesome',
+    value: 'FOSS',
+    img: foss,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.',
   },
   {
-    value: 'Soveriegnty',
-    icon: 'fa-solid fa-flag',
-    description: 'Sovereignty is awesome',
-  },
-  {
-    value: 'Soveriegnty',
-    icon: 'fa-solid fa-flag',
-    description: 'Sovereignty is awesome',
+    value: 'Access',
+    img: access,
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.',
   },
 ];
 

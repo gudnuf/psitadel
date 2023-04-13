@@ -10,7 +10,7 @@ const Values = () => {
       <ValuesItem
         key={index}
         value={value.value}
-        icon={value.icon}
+        img={value.img}
         description={value.description}
       />
     ));

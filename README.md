@@ -44,17 +44,17 @@ The frontend website is built using React.
 ## Current and Future Plans
 
 - Website
-   a. Basic Landing Page
-   b. Accept bitcoin donations
+   - Basic Landing Page
+   - Accept bitcoin donations
 
 - Sell LEGAL goods and services for bitcoin
-   a. Spore Syringes
-   b. Merchandise
-   c. Bitcoin Training Workshops
-   d. Mushroom Cultivation Workshops
+   - Spore Syringes
+   - Merchandise
+   - Bitcoin Training Workshops
+   - Mushroom Cultivation Workshops
 
 - Throw live events to facilitate our mission and values
-   a. Host live music, local food, and pop-up markets to foster a bitcoin circular economy
+   - Host live music, local food, and pop-up markets to foster a bitcoin circular economy
 
 ---
 

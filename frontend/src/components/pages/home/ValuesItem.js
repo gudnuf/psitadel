@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { Col, Row } from 'react-bootstrap';
 import { useState } from 'react';
 
-const ValuesItem = ({ value, description, icon }) => (
+const ValuesItem = ({ value, description, img }) => (
   <Col
     className="my-5 d-flex flex-column justify-content-around align-items-center"
     md={4}
@@ -11,7 +11,8 @@ const ValuesItem = ({ value, description, icon }) => (
     xs={12}
   >
     <Row className="text-center">
-      <i className={`${icon} fa-10x`} />
+      {/* <i className={`${icon} fa-10x`} /> */}
+      <img src={img} alt={value} />
     </Row>
     <Row>
       <div className="value-name">{value}</div>
@@ -22,7 +23,7 @@ const ValuesItem = ({ value, description, icon }) => (
 ValuesItem.propTypes = {
   value: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
 };
 
 export default ValuesItem;

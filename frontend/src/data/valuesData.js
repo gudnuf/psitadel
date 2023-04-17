@@ -12,49 +12,48 @@ const values = [
     value: 'Bitcoin Standard',
     img: bitcoin,
     description:
-      'Bitcoin is our medium of exchange and store of value.  Sed do eiusmod',
+      'Bitcoin, the hardest money, is our medium of exchange and store of value.',
   },
   {
     value: 'Education',
     img: education,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.',
+      'Content and events centered around wellness, generational healing, and censorship resistent tech.',
   },
   {
     value: 'Soveriegnty',
     img: sovereignty,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.',
+    description: 'Taking responsibilty for your finances, health, and actions.',
   },
   {
     value: 'Sustainability',
     img: sustainability,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.',
+      'Give more to the world than we take. Use low-time-preference thinking to leave a positive impact on the world.',
   },
   {
     value: 'Experimentation',
     img: experimentation,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.',
+      'Being on the frontier calls for an adventurous mindset, and the utilization of mind and body to the fullest.',
   },
   {
     value: 'Voluntarism',
     img: voluntarism,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.',
+      'The Psitadel should only operate on a voluntarist and permission-less basis.',
   },
   {
     value: 'FOSS',
     img: foss,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.',
+      'Increase censorship resistence, custody our data, and decrease our reliance of centralized points of failure',
   },
   {
     value: 'Access',
     img: access,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.',
+      'Access to natural medicines and integration services for a complete holistic mental/spiritual health solution.',
   },
 ];
 

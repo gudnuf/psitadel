@@ -17,7 +17,11 @@ const ValuesItem = ({ value, description, img }) => (
     <Row>
       <div className="value-name">{value}</div>
     </Row>
-    <Row className="value-description text-center">{description}</Row>
+    <Row className="value-description text-center">
+      <div className="d-flex flex-column justify-content-center">
+        {description}
+      </div>
+    </Row>
   </Col>
 );
 ValuesItem.propTypes = {

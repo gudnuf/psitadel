@@ -4,6 +4,7 @@ import { Container, Row } from 'react-bootstrap';
 import HomeHeader from './HomeHeader';
 import Values from './Values';
 import JoinAndAbout from './JoinAndAbout';
+import NewsLetter from './NewsLetter';
 
 const Home = () => {
   const [heroHeight, setHeroHeight] = useState(0);
@@ -21,8 +22,9 @@ const Home = () => {
         windowResize={handleWindowResize}
       />
       <Container className="justify-content-around">
-        <Values />
         <JoinAndAbout className="" />
+        <Values />
+        <NewsLetter />
       </Container>
     </>
   );

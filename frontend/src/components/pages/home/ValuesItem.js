@@ -4,18 +4,18 @@ import { useState } from 'react';
 
 const ValuesItem = ({ value, description, img }) => (
   <Col
-    className="my-5 d-flex flex-column justify-content-around align-items-center"
-    md={4}
-    lg={3}
-    sm={6}
+    className="my-3 pb-3 d-flex flex-column justify-content-around align-items-center value-item"
+    md={6}
+    lg={6}
+    xl={3}
     xs={12}
   >
-    <Row className="text-center">
+    <Row>
+      <div className="value-name pt-2">{value}</div>
+    </Row>
+    <Row className="text-center value-img">
       {/* <i className={`${icon} fa-10x`} /> */}
       <img src={img} alt={value} />
-    </Row>
-    <Row>
-      <div className="value-name">{value}</div>
     </Row>
     <Row className="value-description text-center">
       <div className="d-flex flex-column justify-content-center">

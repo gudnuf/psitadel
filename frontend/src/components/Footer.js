@@ -9,14 +9,17 @@ const Footer = () => (
         <Col md={4}>
           <h5 className="footer">About Us</h5>
           <p style={{ textAlign: 'justify' }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non
-            purus non enim tempus luctus sit amet id ipsum.
+            Our mission is to facilitate real-world gatherings to promote the
+            use of tools which allow the healing of society’s sicknesses
+            regarding mental, physical, spiritual, social, and financial health.
+            Some tools we use to achieve this are 1. Psilocybin
+            (psycho-spiritual), 2. Bitcoin (Socio-financial).
           </p>
         </Col>
-        <Col md={4} className="">
+        <Col md={4} xs={12} className="">
           <h5 className="footer">Navigation</h5>
           <Row>
-            <Col md={6}>
+            <Col xs={6}>
               <Nav className="flex-column">
                 <Nav.Link as={Link} to="/">
                   Home
@@ -27,13 +30,13 @@ const Footer = () => (
                 <Nav.Link as={Link} to="/join">
                   Join
                 </Nav.Link>
+              </Nav>
+            </Col>
+            <Col xs={6}>
+              <Nav className="flex-column">
                 <Nav.Link as={Link} to="/donate">
                   Donate
                 </Nav.Link>
-              </Nav>
-            </Col>
-            <Col md={6}>
-              <Nav className="flex-column">
                 <Nav.Link as={Link} to="/projects">
                   Projects
                 </Nav.Link>

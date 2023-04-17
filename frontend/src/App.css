@@ -20,6 +20,21 @@
   --main-font: "Strawberry Dreams";
 }
 
+/* Bootstrap override */
+
+.btn-primary {
+  background-color: rgb(96, 106, 39);
+  border-color: rgb(96, 106, 39);
+  color: var(--brand-color);
+}
+.btn-primary:hover {
+  background-color: rgb(96, 106, 39);
+  border-color: var(--brand-color);
+  color: var(--brand-color);
+}
+
+/* ------------------------ */
+
 /* BackgroundImage */
 .background-container {
   position: fixed;
@@ -75,7 +90,7 @@ h2.values {
 }
 
 .value-name {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-family: var(--heading-font);
 }
 
@@ -86,16 +101,29 @@ h2.values {
   background-color: var(--brand-color);
   border-radius: 5px;
   margin: 5px;
+  width: 100%;
 }
 
+.value-img img {
+  border-radius: 8px;
+}
 /* ------------------------------------ */
 
 /* JoinAndAbout */
 .join-and-about div {
   font-family: var(--heading-font);
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   letter-spacing: 3px;
   text-align: center;
+}
+
+.join-and-about .btn {
+  font-size: 1.5rem;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* --------------------------------------- */
@@ -116,11 +144,39 @@ h5.footer {
   .value-description {
     height: 150px;
   }
+
+  .join-and-about div {
+    font-size: 1.7rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+
+  .join-and-about .btn {
+    width: 30%;
+    font-size: 0.8rem;
+  }
+
+  .value-item {
+    border-bottom: solid;
+    padding-bottom: 5px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .value-description {
     height: 230px;
+  }
+
+  .join-and-about .btn {
+    width: 30%;
+    font-size: 1.2rem;
+  }
+
+  .value-item {
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
   }
 }
 

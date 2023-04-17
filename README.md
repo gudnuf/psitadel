@@ -17,15 +17,15 @@ A mycelium may be minute, forming a colony that is too small to see, or may grow
 
 The frontend website is built using React.
 
-1. Make sure you have [NodeJS](https://nodejs.org)installed on your local machine. Use the LTS.
+1. Make sure you have [NodeJS](https://nodejs.org) installed on your local machine. Use the LTS.
 
 2. Install git
 
 3. Clone this repository:
-   `git clone https://github.com/daGoodenough/psilocybincitadel.git`
+   `git clone https://github.com/daGoodenough/psitadel.git`
 
-4. Navigate to this folder from your command line.
-   `cd psilocybincitadel`
+4. Navigate to the frontend folder from your command line.
+   `cd psitadel/frontend`
 
 5. `npm install`
 

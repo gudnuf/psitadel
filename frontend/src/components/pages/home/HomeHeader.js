@@ -3,9 +3,11 @@ import { useState, useEffect, useRef } from 'react';
 import { PropTypes } from 'prop-types';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
-import heroImage from '../../../images/hero.png';
+import heroHorizontal from '../../../images/hero.png';
+import heroVertical from '../../../images/hero_vertical.png';
 
 const HomeHeader = ({ theme, windowResize }) => {
+  const [heroImage, setHeroImage] = useState(null);
   const heroImageRef = useRef(null);
   const [heroHeight, setHeroHeight] = useState(null);
 
@@ -16,8 +18,14 @@ const HomeHeader = ({ theme, windowResize }) => {
       setHeroHeight(height);
     });
     observer.observe(heroImageRef.current);
+    if (window.innerWidth < 768) {
+      setHeroImage(heroVertical);
+    }
+    if (window.innerWidth >= 768) {
+      setHeroImage(heroHorizontal);
+    }
     return () => observer.disconnect();
-  }, []);
+  }, [window.innerWidth]);
 
   return (
     <Container

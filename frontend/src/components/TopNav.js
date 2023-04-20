@@ -14,7 +14,7 @@ const TopNav = ({ theme }) => (
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-        <Nav>
+        <Nav className="top-nav">
           <Nav.Link as={Link} to="/about">
             About
           </Nav.Link>

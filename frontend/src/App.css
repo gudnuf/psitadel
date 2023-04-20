@@ -58,7 +58,7 @@
   color: var(--brand-color);
 }
 
-a.nav-link {
+.top-nav a.nav-link {
   color: white;
   font-family: var(--main-font);
 }

@@ -18,6 +18,7 @@
   --brand-color: #b0c9d6;
   --heading-font: "Strawberry Dreams Block";
   --main-font: "Strawberry Dreams";
+  --main-font-color: black;
 }
 
 /* Bootstrap override */
@@ -127,6 +128,17 @@ h2.values {
 }
 
 /* --------------------------------------- */
+
+/* Donation Page */
+
+.donate-card-nav .nav-item a.nav-link {
+  color: #495057;
+}
+.donate-card-nav .nav-item a.nav-link.active {
+  color: var(--main-font-color);
+}
+
+/* ------------------------------------------ */
 
 /* Footer */
 footer {

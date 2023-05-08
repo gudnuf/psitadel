@@ -22,10 +22,11 @@
 
 /* Bootstrap override */
 
-.btn-primary {
+a.btn.btn-primary {
   background-color: rgb(96, 106, 39);
   border-color: rgb(96, 106, 39);
   color: var(--brand-color);
+  width: 100%;
 }
 .btn-primary:hover {
   background-color: rgb(96, 106, 39);

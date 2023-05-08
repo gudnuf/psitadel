@@ -1,4 +1,5 @@
 import { Row, Col, Button, Form } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const JoinAndAbout = () => (
   <Row className="mt-3">
@@ -9,10 +10,17 @@ const JoinAndAbout = () => (
         and sustainable future.
       </div>
     </Row>
-    <Row className="join-and-about justify-content-between mt-3" xs={3}>
-      <Button as={Col}>About</Button>
-      <Button as={Col}>Donate</Button>
-      <Button as={Col}>Contribute</Button>
+    <Row className="join-and-about justify-content-around mt-3" xs={3}>
+      <Col>
+        <Button as={Link} to="/about">
+          About
+        </Button>
+      </Col>
+      <Col>
+        <Button as={Link} to="https://donate.psitadel.com">
+          Donate
+        </Button>
+      </Col>
     </Row>
   </Row>
 );

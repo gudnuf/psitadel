@@ -27,9 +27,6 @@ const Footer = () => (
                 <Nav.Link as={Link} to="/about">
                   About
                 </Nav.Link>
-                <Nav.Link as={Link} to="/join">
-                  Join
-                </Nav.Link>
               </Nav>
             </Col>
             <Col xs={6}>
@@ -38,11 +35,6 @@ const Footer = () => (
                 <Nav.Link as={Link} to="/projects">
                   Projects
                 </Nav.Link>
-                <Nav.Link as={Link} to="/miami-conference">
-                  Miami Conference
-                </Nav.Link>
-                {/* <Nav.Link as={Link} to="/miami-conference">Services</Nav.Link>
-                <Nav.Link as={Link} to="/miami-conference">Contact</Nav.Link> */}
               </Nav>
             </Col>
           </Row>

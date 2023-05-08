@@ -18,9 +18,6 @@ const TopNav = ({ theme }) => (
           <Nav.Link as={Link} to="/about">
             About
           </Nav.Link>
-          <Nav.Link as={Link} to="/join">
-            Join
-          </Nav.Link>
           <Nav.Link href="https://donate.psitadel.com">Donate</Nav.Link>
         </Nav>
       </Navbar.Collapse>

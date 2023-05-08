@@ -21,9 +21,9 @@ const values = [
       'Content and events centered around wellness, generational healing, and censorship resistent tech.',
   },
   {
-    value: 'Soveriegnty',
+    value: 'Sovereignty',
     img: sovereignty,
-    description: 'Taking responsibilty for your finances, health, and actions.',
+    description: 'Taking responsibility for your finances, health, and actions.',
   },
   {
     value: 'Sustainability',
@@ -47,7 +47,7 @@ const values = [
     value: 'FOSS',
     img: foss,
     description:
-      'Increase censorship resistence, custody our data, and decrease our reliance of centralized points of failure',
+      'Increase censorship resistance, custody our data, and decrease our reliance of centralized points of failure',
   },
   {
     value: 'Access',

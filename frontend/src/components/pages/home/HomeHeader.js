@@ -53,7 +53,7 @@ const HomeHeader = ({ theme, windowResize }) => {
         >
           <h1 className="hero">
             <strong>Real-world</strong> gatherings promoting tools to{' '}
-            <em>heal</em> society's mental, physical, spiritual, and financials
+            <em>heal</em> society's mental, physical, spiritual, and financial
             ills.
           </h1>
         </Col>

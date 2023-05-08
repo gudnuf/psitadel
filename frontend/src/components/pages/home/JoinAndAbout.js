@@ -5,7 +5,7 @@ const JoinAndAbout = () => (
     <Row className="join-and-about">
       <div>
         The Psitadel is an ever evolving community. We are striving to bring
-        technology, education, and free thinking together to create a soveriegn
+        technology, education, and free thinking together to create a sovereign
         and sustainable future.
       </div>
     </Row>

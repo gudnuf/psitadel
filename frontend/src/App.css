@@ -16,8 +16,17 @@
 
 :root {
   --brand-color: #b0c9d6;
+  --heading-color: rgb(96, 106, 39);
   --heading-font: "Strawberry Dreams Block";
-  --main-font: "Strawberry Dreams";
+  --main-font: Helvetica;
+}
+
+a {
+  color: var(--heading-color);
+}
+
+a:hover {
+  color: var(--brand-color);
 }
 
 /* Bootstrap override */
@@ -47,6 +56,12 @@ a.btn.btn-primary {
 
 /* ------------------------------------ */
 
+h2,
+h1 {
+  font-family: "Strawberry Dreams Block";
+  color: var(--heading-color);
+}
+
 /* TopNav */
 .navbar-brand img {
   max-width: 50px;
@@ -56,11 +71,11 @@ a.btn.btn-primary {
 .navbar-brand {
   font-family: var(--heading-font);
   font-size: 1.8rem;
-  color: var(--brand-color);
+  color: var(--heading-color);
 }
 
 a.nav-link {
-  color: white;
+  color: var(--heading-color);
   font-family: var(--main-font);
 }
 
@@ -99,7 +114,7 @@ h2.values {
   font-family: var(--main-font);
   font-size: 1.3rem;
   font-weight: 600;
-  background-color: var(--brand-color);
+  background-color: var(--heading-color);
   border-radius: 5px;
   margin: 5px;
   width: 100%;

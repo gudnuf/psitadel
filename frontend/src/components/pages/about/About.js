@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './About.css';
 
 const About = () => (
@@ -42,6 +43,13 @@ const About = () => (
         Psitadel.
       </p>
     </div>
+    <Row className="join-and-about justify-content-around mt-3" xs={3}>
+      <Col>
+        <Button as={Link} to="https://donate.psitadel.com">
+          Donate
+        </Button>
+      </Col>
+    </Row>
   </Container>
 );
 

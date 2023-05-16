@@ -23,7 +23,8 @@ const values = [
   {
     value: 'Sovereignty',
     img: sovereignty,
-    description: 'Taking responsibility for your finances, health, and actions.',
+    description:
+      'Taking responsibility for your finances, health, and actions.',
   },
   {
     value: 'Sustainability',

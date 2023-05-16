@@ -5,6 +5,7 @@ import HomeHeader from './HomeHeader';
 import Values from './Values';
 import JoinAndAbout from './JoinAndAbout';
 import Contact from './Contact';
+import FuturePlans from './FuturePlans';
 
 const Home = () => {
   const [heroHeight, setHeroHeight] = useState(0);
@@ -25,6 +26,7 @@ const Home = () => {
         <JoinAndAbout className="" />
         <Values />
         <Contact className="contact-section" />
+        <FuturePlans />
       </Container>
     </>
   );

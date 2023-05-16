@@ -52,15 +52,6 @@ const Footer = () => (
               </li>
             </a>
             <a
-              href="https://twitter.com/DecrimNat"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <li>
-                <i className="fa-brands fa-twitter" /> Twitter
-              </li>
-            </a>
-            <a
               href="https://github.com/daGoodenough/psitadel"
               target="_blank"
               rel="noreferrer"
@@ -70,6 +61,16 @@ const Footer = () => (
               </li>
             </a>
           </ul>
+        </Col>
+      </Row>
+      <Row className="text-center">
+        <Col xs={12}>
+          This website was built with the help of{' '}
+          <a href="https://github.com/daGoodenough">@daGoodenough</a>,{' '}
+          <a href="https://github.com/mycelia1">@Mycelia1</a>, and{' '}
+          <a href="https://github.com/daGoodenough/psitadel/graphs/contributors">
+            others
+          </a>
         </Col>
       </Row>
     </Container>

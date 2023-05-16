@@ -155,6 +155,16 @@ h5.footer {
 
 /* ------------------------------------ */
 
+/* Contact */
+.contact-section {
+  margin-top: 50px;
+}
+
+#home-telegram-link {
+  font-size: 1rem;
+}
+
+/* ---------------------------------------- */
 /* Media Queries */
 @media (max-width: 575.98px) {
   .value-description {

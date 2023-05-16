@@ -3,7 +3,7 @@ import { Container, Row, Col, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Footer = () => (
-  <footer className="bg-dark py-3">
+  <footer className="bg-dark py-3 mt-5">
     <Container>
       <Row className="justify-content-around text-center">
         <Col md={4}>

@@ -4,6 +4,7 @@ import { Container, Row } from 'react-bootstrap';
 import HomeHeader from './HomeHeader';
 import Values from './Values';
 import JoinAndAbout from './JoinAndAbout';
+import Contact from './Contact';
 
 const Home = () => {
   const [heroHeight, setHeroHeight] = useState(0);
@@ -23,6 +24,7 @@ const Home = () => {
       <Container className="justify-content-around">
         <JoinAndAbout className="" />
         <Values />
+        <Contact className="contact-section" />
       </Container>
     </>
   );

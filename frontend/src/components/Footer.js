@@ -32,8 +32,8 @@ const Footer = () => (
             <Col xs={6}>
               <Nav className="flex-column">
                 <Nav.Link href="https://donate.psitadel.com">Donate</Nav.Link>
-                <Nav.Link as={Link} to="/projects">
-                  Projects
+                <Nav.Link as={Link} to="/bounty">
+                  Bounty Board
                 </Nav.Link>
               </Nav>
             </Col>

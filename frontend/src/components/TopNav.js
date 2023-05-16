@@ -19,6 +19,9 @@ const TopNav = ({ theme }) => (
             About
           </Nav.Link>
           <Nav.Link href="https://donate.psitadel.com">Donate</Nav.Link>
+          <Nav.Link as={Link} to="/bounty">
+            Bounties
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>
